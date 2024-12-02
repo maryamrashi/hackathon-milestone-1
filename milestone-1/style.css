@@ -1,0 +1,97 @@
+body{
+font-family:"Arial , sana-serif";
+background-color: white;
+margin:0;
+padding: 20px; 
+}
+
+.resume-container{
+    display:flex;
+    background-color: rgb(255, 255, 255);
+    width: 50%;  
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(183, 13, 218) ;
+}
+.left-section {
+    background-color: rgb(0, 0, 0);
+    color: white; 
+    padding: 15px;
+    width: 35%;
+    text-align: center;
+    border-right: 5px solid rgb(175, 45, 201);
+    font-size:20px;
+}
+.profile-picture{
+    width: 170px;
+    height:170px;
+    margin-top: 10px;
+    border-radius: 50%;
+    border: 5px rgb(155, 12, 168);
+    margin-bottom: 20px;
+    box-shadow: 0 0 15px rgb(111, 62, 116) ;
+
+}
+h1 {
+    font-size: 24px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+h3 {  
+    font-size: 20px;
+    padding: 2%;
+     max-width: 20px 0 10px;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(175, 5, 209) ;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+ 
+ ul {
+    list-style-type: fill round;
+    padding: 5%;
+    margin: 5px 0;
+ }
+ ul li {
+    margin: 1px 0;
+ }
+
+ .right-section {
+    padding: 20px;
+    width: 65%;
+    text-align:start;
+    font-size: 17px;
+    
+ }
+
+ button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    color:rgb(0, 0, 0);
+    background-color: rgb(114, 82, 145);
+    padding-top: 4px;
+    padding-bottom:4px ;
+    padding-left: 16px;
+    padding-right: 16px;
+ }
+
+ button:hover {
+    background-color: #70067e; /*it changes the background color of button when we hover on it */
+ 
+ }
+ 
+
+
+
+
+
+
+
